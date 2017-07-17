@@ -3,6 +3,14 @@
     android:height="24dp"
     android:viewportHeight="24.0"
     android:viewportWidth="24.0">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Username"
+        android:inputType="textEmailAddress"/>
     <path
         android:fillColor="#FF000000"
         android:pathData="M12,12m-3.2,0a3.2,3.2 0,1 1,6.4 0a3.2,3.2 0,1 1,-6.4 0" />
